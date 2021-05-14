@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" data-netlify="true">
+  <p>
+    <label for="nombre">1.Nombre:</label>
+    <input name="nombre" type="text" id="nombre" placeholder="Nombre(s)" pattern="[A-Za-z- ]{0,50}">
+  </p>
+  <p>
+    <label for="paterno">2.Apellido Paterno:</label>
+    <input name="paterno" type="text" id="paterno" placeholder="Apellido paterno" pattern="[A-Za-z- ]{0,50}">
+  </p>
+  <p>
+    <label for="materno">3.Apellido Materno:</label>
+    <input name="materno" type="text" id="materno" placeholder="Apellido materno" pattern="[A-Za-z- ]{0,50}">
+  </p>
+  <p>4.Sexo: 
+    <input type="checkbox" name="hombre" id="hombre">
+  Hombre
+  <input type="checkbox" name="mujer" id="mujer">
+  <label for="mujer">Mujer 
+    <input type="checkbox" name="no identificado" id="no identificado">
+    No especificar
+  </label>
+  </p>
+  <p>
+    <label for="email">5.Correo electronico:</label>
+    <input name="email" type="email" id="email" placeholder="Correo electronico" size="40">
+  </p>
+  <p>
+    <label for="password">6.Contraseña:</label>
+    <input name="password" type="password" id="password" placeholder="Contraseña del correo">
+  </p>
+  <p>
+    <label for="tel">7.Telefono:</label>
+    <input name="tel" type="tel" id="tel" placeholder="Telefono" maxlength="10">
+  </p>
+  <p>
+    <label for="number">8.Edad:</label>
+    <input name="number" type="number" id="number" placeholder="Edad" max="100" min="1">
+  </p>
+  <p>
+    <label for="select2">9.Estado civil::</label>
+    <select name="select2" id="select2">
+      <option>Soltero(a)</option>
+      <option>Casado(a)</option>
+      <option>Viudo(a)</option>
+      <option>Divorciado(a)</option>
+      <option>Unión Libre</option>
+    </select>
+  </p>
+  <p>
+    <label for="date">10.Fecha de nacimiento:</label>
+    <input type="date" name="date" id="date">
+  </p>
+  <p>
+    <label for="color">11.Eliga su color favorito:</label>
+    <input type="color" name="color" id="color">
+  </p>
+  <p>
+    <label for="select">12.Medio de transporte viaja:</label>
+    <select name="select" id="select">
+      <option>Transporte publico</option>
+      <option>Carro</option>
+      <option>Motocicleta </option>
+      <option>Bicicleta</option>
+      <option>Caminando</option>
+    </select>
+  </p>
+  <p>13.¿Qué animal prefiere?</p>
+  <p>
+    <input type="radio" name="radio" id="radio" value="radio">
+    Perro </p>
+  <p>
+    <input type="radio" name="radio2" id="radio2" value="radio2">
+    Gato</p>
+  <p>
+    <input type="radio" name="radio3" id="radio3" value="radio3">
+    <label for="radio3">Ninguno de las anteriores</label>
+  </p>
+  <p>
+    <label for="textfield">14.Pasatiempo favorito:</label>
+    <input type="text" name="textfield" id="textfield">
+  </p>
+  <p>15.¿Te gustan las clases en linea?</p>
+  <p>
+    <input type="radio" name="radio4" id="radio4" value="radio4">
+  SI</p>
+  <p>
+    <input type="radio" name="radio5" id="radio5" value="radio5">
+    NO
+  </p>
+  <p>&nbsp;</p>
+  <p>
+       <input type="reset" name="reset" id="reset" value="Restablecer">
+       <input type="submit" name="enviar" id="enviar" value="Enviar">
+  </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</form>
+</body>
+</html>
